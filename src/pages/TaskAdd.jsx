@@ -27,7 +27,7 @@ export default function TaskAdd(){
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4">Tambah Tugas</h1>
-      <TaskForm onSubmit={submit} onCancel={cancel} submitLabel="Add Task" />
+      <TaskForm onSubmit={submit} onCancel={cancel} submitLabel="Tambah Tugas" />
     </div>
   )
 }

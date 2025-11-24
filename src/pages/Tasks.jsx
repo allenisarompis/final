@@ -56,7 +56,7 @@ export default function Tasks(){
       </div>
 
       <div className="flex gap-3">
-        <input placeholder="Search title..." value={search} onChange={e => setSearch(e.target.value)} className="p-2 border rounded flex-1" />
+        <input placeholder="Cari judul tugas" value={search} onChange={e => setSearch(e.target.value)} className="p-2 border rounded flex-1" />
         <select value={filter} onChange={e => setFilter(e.target.value)} className="p-2 border rounded">
           <option value="all">Semua</option>
           <option value="completed">Selesai</option>
@@ -65,7 +65,7 @@ export default function Tasks(){
       </div>
 
       <div className="grid gap-3">
-        {loading ? <div>Loading...</div> : (filtered.length === 0 ? <div className="text-gray-500">No tasks</div> : filtered.map(t => <TaskCard key={t.id} task={t} onToggleComplete={toggleComplete} onDelete={remove} />))}
+        {loading ? <div>Loading...</div> : (filtered.length === 0 ? <div className="text-gray-500">Tidak Ada Tugas</div> : filtered.map(t => <TaskCard key={t.id} task={t} onToggleComplete={toggleComplete} onDelete={remove} />))}
       </div>
 
       {toast && <div className="fixed bottom-6 right-6 bg-black text-white px-4 py-2 rounded">{toast}</div>}

@@ -10,7 +10,19 @@
       "subtasks": [],
       "completed": false,
       "createdAt": "2025-11-24T12:07:18.047Z",
-      "updatedAt": "2025-11-24T12:07:18.047Z"
+      "updatedAt": "2025-11-24T21:19:16.896Z"
+    },
+    {
+      "id": "54e8",
+      "title": "Comnet II",
+      "description": "final",
+      "deadline": "2025-11-24",
+      "priority": "high",
+      "tags": [],
+      "subtasks": [],
+      "completed": true,
+      "createdAt": "2025-11-24T21:19:42.054Z",
+      "updatedAt": "2025-11-24T21:19:42.054Z"
     }
   ]
 }

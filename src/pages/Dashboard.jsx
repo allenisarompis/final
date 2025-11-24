@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import OverviewCard from '../components/OverviewCard'
-// import TaskCard from '../components/TaskCard'
+import TaskCard from '../components/TaskCard'
 import { fetchTasks } from '../RestAPI'
 
 export default function Dashboard(){

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { fetchTasks, updateTask, removeTask } from '../RestAPI'
-// import TaskCard from '../components/TaskCard'
+import TaskCard from '../components/TaskCard'
 import { Link } from 'react-router-dom'
 
 export default function Tasks(){

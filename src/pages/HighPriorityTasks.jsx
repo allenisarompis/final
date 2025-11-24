@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { fetchTasks, updateTask, removeTask } from '../RestAPI'
-// import TaskCard from '../components/TaskCard'
+import TaskCard from '../components/TaskCard'
 
 export default function HighPriorityTasks(){
   const [tasks, setTasks] = useState([])

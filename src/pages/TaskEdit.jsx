@@ -36,7 +36,7 @@ export default function TaskEdit(){
   return (
     <div>
       <h1 className="text-2xl font-bold mb-4">Edit Tugas</h1>
-      <TaskForm initial={task} onSubmit={submit} onCancel={cancel} submitLabel="Update Task" />
+      <TaskForm initial={task} onSubmit={submit} onCancel={cancel} submitLabel="Edit Tugas" />
     </div>
   )
 }

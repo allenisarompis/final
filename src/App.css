@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.fade {
+  transition: opacity .18s ease, transform .18s ease;
+}
